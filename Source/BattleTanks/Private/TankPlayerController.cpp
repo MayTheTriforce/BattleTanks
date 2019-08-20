@@ -1,6 +1,17 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "TankPlayerController.h"
 
+
+//Tickvoid 
+void ATankPlayerController::Tick(float DeltaTime)
+{
+    //Super
+    Super::Tick( DeltaTime );
+    UE_LOG(LogTemp, Warning, TEXT("Tick Method is working"));  
+
+    //AimTowardsCrosshair();
+}
+
 void ATankPlayerController::BeginPlay()
 {
     Super::BeginPlay();
