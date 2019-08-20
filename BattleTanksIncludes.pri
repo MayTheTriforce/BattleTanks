@@ -1,10 +1,32 @@
 INCLUDEPATH += \
 	/home/kai/UnrealEngine/Engine/Source \
-	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BattleTanks \
-	Source \
-	Source/BattleTanks \
-	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core \
+	Source/BattleTanks/Private \
+	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine \
 	/home/kai/UnrealEngine/Engine/Source/Runtime \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Classes \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
+	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
+	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Core \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/Core/Public/Linux \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/Core/Public \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/Core \
@@ -45,30 +67,6 @@ INCLUDEPATH += \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/Templates \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject \
-	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Classes \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Analytics \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Animation \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Curves \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/EdGraph \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Internationalization \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Net/Util \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Performance \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/Experimental \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Physics/ImmediatePhysics \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/ProfilingDebugging \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Rendering \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Slate \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Subsystems \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/Tests \
-	/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Public/VisualLogger \
 	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ApplicationCore \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/ApplicationCore \
@@ -432,6 +430,10 @@ INCLUDEPATH += \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO \
+	Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BattleTanks \
+	Source \
+	Source/BattleTanks/Public \
+	Source/BattleTanks \
 	/home/kai/UnrealEngine/Engine/Source/Runtime/Launch/Private \
 	/home/kai/UnrealEngine/Engine/Source/Programs/BlankProgram/Private \
 	/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/BlankProgram/Inc/Core \

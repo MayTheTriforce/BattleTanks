@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BattleTanks Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Mac",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"IOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"HTML5",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"Linux",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Shipping",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanks TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanks TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanks",
+				"TVOS",
+				"Test",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Linux",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Debug",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"DebugGame",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTanksEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		},
+		{
+			"label": "BattleTanksEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"BattleTanksEditor",
+				"Mac",
+				"Development",
+				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/kai/UnrealEngine"
+			}
+		}
+	]
+}

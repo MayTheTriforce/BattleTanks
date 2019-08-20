@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /home/kai/UnrealEngine
-GAMEPROJECTFILE =/home/kai/Desktop/Dark World/Unreal/BattleTanks/BattleTanks/BattleTanks.uproject
+GAMEPROJECTFILE =/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject
 
 TARGETS = \
 	BattleTanks-Linux-Debug  \
