@@ -20,4 +20,7 @@ private:
 	virtual void BeginPlay() override;
 	virtual void Tick( float DeltaTime ) override;
 
+	///Starts the tank moving the barrel so that a shot would shoot where the crosshead intersects the world
+	void AimTowardsCrosshair();
+
 };
