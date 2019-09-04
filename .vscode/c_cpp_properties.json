@@ -4,7 +4,7 @@
 			"name": "UnrealEngine",
 			"includePath": [
 				"/home/kai/UnrealEngine/Engine/Source",
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Source/BattleTanks/Private",
+				"/home/kai/Documents/Unreal Projects/BattleTanks/Source/BattleTanks/Private",
 				"/home/kai/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Engine",
 				"/home/kai/UnrealEngine/Engine/Source/Runtime",
 				"/home/kai/UnrealEngine/Engine/Source/Runtime/Engine/Classes",
@@ -397,10 +397,9 @@
 				"/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP",
 				"/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP/Encoders",
 				"/home/kai/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO",
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BattleTanks",
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Source",
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Source/BattleTanks/Public",
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Source/BattleTanks",
+				"/home/kai/Documents/Unreal Projects/BattleTanks/Source",
+				"/home/kai/Documents/Unreal Projects/BattleTanks/Source/BattleTanks/Public",
+				"/home/kai/Documents/Unreal Projects/BattleTanks/Source/BattleTanks",
 				"/usr/include",
 				"/usr/local/include"
 			],

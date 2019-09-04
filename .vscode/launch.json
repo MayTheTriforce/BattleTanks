@@ -5,7 +5,7 @@
 			"name": "BattleTanks (Debug)",
 			"request": "launch",
 			"preLaunchTask": "BattleTanks Linux Debug Build",
-			"program": "/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Binaries/Linux/BattleTanks-Linux-Debug",
+			"program": "/home/kai/Documents/Unreal Projects/BattleTanks/Binaries/Linux/BattleTanks-Linux-Debug",
 			"args": [
 			],
 			"cwd": "/home/kai/UnrealEngine",
@@ -15,7 +15,7 @@
 			"name": "BattleTanks (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "BattleTanks Linux DebugGame Build",
-			"program": "/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Binaries/Linux/BattleTanks-Linux-DebugGame",
+			"program": "/home/kai/Documents/Unreal Projects/BattleTanks/Binaries/Linux/BattleTanks-Linux-DebugGame",
 			"args": [
 			],
 			"cwd": "/home/kai/UnrealEngine",
@@ -25,7 +25,7 @@
 			"name": "BattleTanks (Development)",
 			"request": "launch",
 			"preLaunchTask": "BattleTanks Linux Development Build",
-			"program": "/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Binaries/Linux/BattleTanks",
+			"program": "/home/kai/Documents/Unreal Projects/BattleTanks/Binaries/Linux/BattleTanks",
 			"args": [
 			],
 			"cwd": "/home/kai/UnrealEngine",
@@ -35,7 +35,7 @@
 			"name": "BattleTanks (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "BattleTanks Linux Shipping Build",
-			"program": "/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Binaries/Linux/BattleTanks-Linux-Shipping",
+			"program": "/home/kai/Documents/Unreal Projects/BattleTanks/Binaries/Linux/BattleTanks-Linux-Shipping",
 			"args": [
 			],
 			"cwd": "/home/kai/UnrealEngine",
@@ -45,7 +45,7 @@
 			"name": "BattleTanks (Test)",
 			"request": "launch",
 			"preLaunchTask": "BattleTanks Linux Test Build",
-			"program": "/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Binaries/Linux/BattleTanks-Linux-Test",
+			"program": "/home/kai/Documents/Unreal Projects/BattleTanks/Binaries/Linux/BattleTanks-Linux-Test",
 			"args": [
 			],
 			"cwd": "/home/kai/UnrealEngine",
@@ -57,7 +57,7 @@
 			"preLaunchTask": "BattleTanksEditor Linux Debug Build",
 			"program": "/home/kai/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
 			"args": [
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject"
+				"/home/kai/Documents/Unreal Projects/BattleTanks/BattleTanks.uproject"
 			],
 			"cwd": "/home/kai/UnrealEngine",
 			"type": "lldb"
@@ -68,7 +68,7 @@
 			"preLaunchTask": "BattleTanksEditor Linux DebugGame Build",
 			"program": "/home/kai/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject"
+				"/home/kai/Documents/Unreal Projects/BattleTanks/BattleTanks.uproject"
 			],
 			"cwd": "/home/kai/UnrealEngine",
 			"type": "lldb"
@@ -79,7 +79,7 @@
 			"preLaunchTask": "BattleTanksEditor Linux Development Build",
 			"program": "/home/kai/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
 			"args": [
-				"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject"
+				"/home/kai/Documents/Unreal Projects/BattleTanks/BattleTanks.uproject"
 			],
 			"cwd": "/home/kai/UnrealEngine",
 			"type": "lldb"
@@ -93,7 +93,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject\"",
+				"-project=\"/home/kai/Documents/Unreal Projects/BattleTanks/BattleTanks.uproject\"",
 				"-game",
 				"-engine"
 			],

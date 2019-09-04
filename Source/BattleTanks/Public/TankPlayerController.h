@@ -15,7 +15,7 @@ class BATTLETANKS_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-private:
+public:
 	ATank* GetControlledTank() const;
 	virtual void BeginPlay() override;
 	virtual void Tick( float DeltaTime ) override;

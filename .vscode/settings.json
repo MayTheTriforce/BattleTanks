@@ -1,11 +1,11 @@
 {
 	"files.exclude": {
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/.git": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/.kdev4": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/.vscode": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Content": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/DerivedDataCache": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Intermediate": true,
-		"/home/kai/Desktop/Gamedev/Unreal/BattleTanks/Saved": true
+		"/home/kai/Documents/Unreal Projects/BattleTanks/.git": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/.kdev4": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/.vscode": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/Content": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/DerivedDataCache": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/Intermediate": true,
+		"/home/kai/Documents/Unreal Projects/BattleTanks/Saved": true
 	}
 }

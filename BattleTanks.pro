@@ -10,9 +10,9 @@ CONFIG -= qt
 TARGET = UE4 
 
 unrealRootPath=/home/kai/UnrealEngine
-BattleTanksRootPath=/home/kai/Desktop/Gamedev/Unreal/BattleTanks
+BattleTanksRootPath=/home/kai/Documents/Unreal Projects/BattleTanks
 
-gameProjectFile=/home/kai/Desktop/Gamedev/Unreal/BattleTanks/BattleTanks.uproject
+gameProjectFile=/home/kai/Documents/Unreal Projects/BattleTanks/BattleTanks.uproject
 build=bash $$unrealRootPath/Engine/Build/BatchFiles/Linux/RunMono.sh $$unrealRootPath/Engine/Binaries/DotNET/UnrealBuildTool.exe
 
 args=$(ARGS)
